@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  @apply bg-slate-950 text-slate-100 font-sans;
+  @apply bg-slate-50 text-slate-900 font-sans transition-colors duration-300 dark:bg-slate-950 dark:text-slate-50;
 }
 
 ::-webkit-scrollbar {
@@ -15,7 +15,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom, #6366f1, #22d3ee);
+  background: linear-gradient(to bottom, #2563eb, #38bdf8);
   border-radius: 9999px;
 }
 
