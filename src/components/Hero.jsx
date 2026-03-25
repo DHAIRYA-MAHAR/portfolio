@@ -3,10 +3,9 @@ import cvImage from '../assets/resume/resume.pdf';
 import profilePhoto from '../assets/images/profile_photo.png';
 
 const typingItems = [
-  'Data Science Enthusiast',
-  'Machine Learning',
-  'Problem Solver',
-  'B.Tech CSE @ LPU',
+  'data science enthusiast',
+  'machine learner',
+  'problem solver',
 ];
 
 export default function Hero() {
@@ -89,7 +88,7 @@ export default function Hero() {
 
           <div className="flex items-center justify-center gap-2 text-sm text-slate-600 dark:text-slate-300 md:justify-start">
             <span className="font-medium text-slate-800 dark:text-slate-200">I am a</span>
-            <span className="rounded-full bg-white px-3 py-1 font-mono text-xs uppercase tracking-wide text-blue-600 ring-1 ring-blue-500/20 dark:bg-slate-900/80 dark:text-sky-300 dark:ring-sky-500/40">
+            <span className="rounded-full bg-white px-3 py-1 font-mono text-xs tracking-wide text-blue-600 ring-1 ring-blue-500/20 dark:bg-slate-900/80 dark:text-sky-300 dark:ring-sky-500/40">
               {text}
               <span className="ml-0.5 inline-block h-4 w-[2px] animate-pulse bg-blue-600 dark:bg-sky-300 align-middle" />
             </span>
